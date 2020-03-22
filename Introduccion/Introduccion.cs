@@ -15,14 +15,37 @@ namespace Introduccion
         public Introduccion()
         {
             InitializeComponent();
+        }  
+
+        private void Introduccion_Load(object sender, EventArgs e)
+        {
+
         }
 
-        private void IntroductionButton_Click(object sender, EventArgs e)
+        private void IntroButton_Click(object sender, EventArgs e)
+        {
+            IdTextBox.Focus();
+
+            if ( IdTextBox.Text =="carlos"  && PasswordTextBox.Text=="123")
+            {
+                MessageBox.Show("Welcom");
+            }else
+            {
+                MessageBox.Show("Usuario o contrase;a incorrecta");
+
+                IdTextBox.Text = string.Empty;
+                PasswordTextBox.Text = string.Empty;
+                IdTextBox.Focus();
+            }           
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+
             
         }
 
-
+   
     }
 }

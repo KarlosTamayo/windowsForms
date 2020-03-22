@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduccion", "Introduccion\Introduccion.csproj", "{DDCEE288-FECF-4E88-9251-7A7077717133}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Introduccion\Login.csproj", "{DDCEE288-FECF-4E88-9251-7A7077717133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enlasar dos ventanas", "Enlasar dos ventanas\Enlasar dos ventanas.csproj", "{4AC48A93-8DA3-48A5-8E16-685BA497066A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DDCEE288-FECF-4E88-9251-7A7077717133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDCEE288-FECF-4E88-9251-7A7077717133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDCEE288-FECF-4E88-9251-7A7077717133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC48A93-8DA3-48A5-8E16-685BA497066A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC48A93-8DA3-48A5-8E16-685BA497066A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC48A93-8DA3-48A5-8E16-685BA497066A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC48A93-8DA3-48A5-8E16-685BA497066A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
