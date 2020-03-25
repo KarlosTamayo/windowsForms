@@ -25,7 +25,7 @@ namespace Enlasar_dos_ventanas
             {
                 this.Hide(); //esconder ventade de login
                 //MessageBox.Show("Welcom");
-                Ventana2 NuevaVenta = new Ventana2(); // instancia 
+                Ventan1 NuevaVenta = new Ventan1(); // instancia 
                 NuevaVenta.Show(); //abriendo la ventana
             }
             else

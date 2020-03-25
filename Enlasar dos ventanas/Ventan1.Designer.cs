@@ -1,6 +1,6 @@
 ﻿namespace Enlasar_dos_ventanas
 {
-    partial class Ventana2
+    partial class Ventan1
     {
         /// <summary>
         /// Required designer variable.

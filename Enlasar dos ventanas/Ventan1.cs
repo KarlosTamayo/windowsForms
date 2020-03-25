@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Enlasar_dos_ventanas
 {
-    public partial class Ventana2 : Form
+    public partial class Ventan1 : Form
     {
-        public Ventana2()
+        public Ventan1()
         {
             InitializeComponent();
         }
