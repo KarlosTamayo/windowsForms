@@ -51,7 +51,7 @@
             // 
             // IdTextBox
             // 
-            this.IdTextBox.Location = new System.Drawing.Point(124, 120);
+            this.IdTextBox.Location = new System.Drawing.Point(105, 120);
             this.IdTextBox.Name = "IdTextBox";
             this.IdTextBox.Size = new System.Drawing.Size(116, 20);
             this.IdTextBox.TabIndex = 0;
@@ -69,7 +69,7 @@
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(124, 185);
+            this.PasswordTextBox.Location = new System.Drawing.Point(105, 185);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.Size = new System.Drawing.Size(116, 20);
             this.PasswordTextBox.TabIndex = 1;

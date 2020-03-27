@@ -41,9 +41,7 @@ namespace Introduccion
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
-
-            
+            this.Close();            
         }
 
    
