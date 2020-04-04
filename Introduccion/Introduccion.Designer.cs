@@ -55,6 +55,7 @@
             this.IdTextBox.Name = "IdTextBox";
             this.IdTextBox.Size = new System.Drawing.Size(116, 20);
             this.IdTextBox.TabIndex = 0;
+            this.IdTextBox.TextChanged += new System.EventHandler(this.IdTextBox_TextChanged);
             // 
             // IdLabel
             // 

@@ -39,6 +39,11 @@ namespace Reina
         {
             this.Close();
         }
+
+        private void ReinaForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

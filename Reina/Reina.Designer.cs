@@ -123,6 +123,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ReinaForm";
             this.Text = "Reina";
+            this.Load += new System.EventHandler(this.ReinaForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -44,6 +44,9 @@ namespace Introduccion
             this.Close();            
         }
 
-   
+        private void IdTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
