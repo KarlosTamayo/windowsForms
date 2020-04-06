@@ -57,7 +57,7 @@
             "bat-3-36",
             "black_cat-3-36",
             "cemetery-3-36"});
-            this.listBox1.Location = new System.Drawing.Point(127, 74);
+            this.listBox1.Location = new System.Drawing.Point(87, 74);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(120, 43);
             this.listBox1.TabIndex = 1;

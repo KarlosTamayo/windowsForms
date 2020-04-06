@@ -31,10 +31,10 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abriirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cortarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pegarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,16 +62,7 @@
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
-            // 
-            // inicioToolStripMenuItem
-            // 
-            this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cortarToolStripMenuItem,
-            this.pegarToolStripMenuItem,
-            this.editarToolStripMenuItem});
-            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.inicioToolStripMenuItem.Text = "inicio";
+            this.archivoToolStripMenuItem.Click += new System.EventHandler(this.archivoToolStripMenuItem_Click);
             // 
             // nevoToolStripMenuItem
             // 
@@ -86,12 +77,25 @@
             this.abriirToolStripMenuItem.Name = "abriirToolStripMenuItem";
             this.abriirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.abriirToolStripMenuItem.Text = "Abriir";
+            this.abriirToolStripMenuItem.Click += new System.EventHandler(this.abriirToolStripMenuItem_Click);
             // 
             // cerrarToolStripMenuItem
             // 
             this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
             this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cerrarToolStripMenuItem.Text = "Cerrar";
+            this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.cerrarToolStripMenuItem_Click);
+            // 
+            // inicioToolStripMenuItem
+            // 
+            this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cortarToolStripMenuItem,
+            this.pegarToolStripMenuItem,
+            this.editarToolStripMenuItem});
+            this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.inicioToolStripMenuItem.Text = "inicio";
+            this.inicioToolStripMenuItem.Click += new System.EventHandler(this.inicioToolStripMenuItem_Click);
             // 
             // cortarToolStripMenuItem
             // 

@@ -23,5 +23,25 @@ namespace ContenedorMDI
             foom.MdiParent = this;
             foom.Show();
         }
+
+        private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void inicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void abriirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cerrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

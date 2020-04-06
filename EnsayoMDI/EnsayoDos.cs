@@ -8,30 +8,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ContenedorMDI
+namespace EnsayoMDI
 {
-    public partial class Form2 : Form
+    public partial class EnsayoDos : Form
     {
-        public Form2()
+        public EnsayoDos()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void EntrarButton_Click(object sender, EventArgs e)
         {
             progressBar1.Minimum = 1;
             progressBar1.Maximum = 100;
-            progressBar1.Step = 10;
+            progressBar1.Step = 2;
 
-            for (int i = 0;i <= 100; i++)
+            for (int i = 0; i <= 100; i++)
             {
                 progressBar1.PerformStep();
             }
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

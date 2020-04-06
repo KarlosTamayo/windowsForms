@@ -1,6 +1,6 @@
-﻿namespace ContenedorMDI
+﻿namespace EnsayoMDI
 {
-    partial class Form2
+    partial class EnsayoDos
     {
         /// <summary>
         /// Required designer variable.
@@ -29,36 +29,35 @@
         private void InitializeComponent()
         {
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.button1 = new System.Windows.Forms.Button();
+            this.EntrarButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(106, 124);
+            this.progressBar1.Location = new System.Drawing.Point(153, 147);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(284, 23);
-            this.progressBar1.TabIndex = 0;
-            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
+            this.progressBar1.Size = new System.Drawing.Size(265, 23);
+            this.progressBar1.TabIndex = 1;
             // 
-            // button1
+            // EntrarButton
             // 
-            this.button1.Location = new System.Drawing.Point(195, 209);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.EntrarButton.Location = new System.Drawing.Point(250, 238);
+            this.EntrarButton.Name = "EntrarButton";
+            this.EntrarButton.Size = new System.Drawing.Size(75, 23);
+            this.EntrarButton.TabIndex = 2;
+            this.EntrarButton.Text = "Entrar";
+            this.EntrarButton.UseVisualStyleBackColor = true;
+            this.EntrarButton.Click += new System.EventHandler(this.EntrarButton_Click);
             // 
-            // Form2
+            // EnsayoDos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(463, 399);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(565, 334);
+            this.Controls.Add(this.EntrarButton);
             this.Controls.Add(this.progressBar1);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "EnsayoDos";
+            this.Text = "EnsayoDos";
             this.ResumeLayout(false);
 
         }
@@ -66,6 +65,6 @@
         #endregion
 
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button EntrarButton;
     }
 }

@@ -36,6 +36,8 @@ namespace Enfriar
         }
         //metodos 
 
+        
+
         public void Mensaje() => Console.WriteLine(" ancho  : " + ancho + "largo:" + largo+ "color:" + color + "nevecon:"+ nevecon + "antiescarcha:" + antiescarcha);
 
 
