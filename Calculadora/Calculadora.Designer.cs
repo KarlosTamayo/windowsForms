@@ -55,7 +55,7 @@
             this.ResultadoTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ResultadoTextBox.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResultadoTextBox.ForeColor = System.Drawing.Color.Red;
-            this.ResultadoTextBox.Location = new System.Drawing.Point(63, 35);
+            this.ResultadoTextBox.Location = new System.Drawing.Point(45, 35);
             this.ResultadoTextBox.Multiline = true;
             this.ResultadoTextBox.Name = "ResultadoTextBox";
             this.ResultadoTextBox.Size = new System.Drawing.Size(317, 59);
@@ -66,7 +66,7 @@
             // 
             this.IgualButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.IgualButton.Image = global::Calculadora.Properties.Resources.iquals_24;
-            this.IgualButton.Location = new System.Drawing.Point(295, 194);
+            this.IgualButton.Location = new System.Drawing.Point(277, 194);
             this.IgualButton.Name = "IgualButton";
             this.IgualButton.Size = new System.Drawing.Size(85, 32);
             this.IgualButton.TabIndex = 0;
@@ -77,7 +77,7 @@
             // 
             this.NumeroUnoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroUnoButton.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroUnoButton.Location = new System.Drawing.Point(61, 192);
+            this.NumeroUnoButton.Location = new System.Drawing.Point(43, 192);
             this.NumeroUnoButton.Name = "NumeroUnoButton";
             this.NumeroUnoButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroUnoButton.TabIndex = 3;
@@ -89,7 +89,7 @@
             // 
             this.CeroButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.CeroButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CeroButton.Location = new System.Drawing.Point(61, 229);
+            this.CeroButton.Location = new System.Drawing.Point(43, 229);
             this.CeroButton.Name = "CeroButton";
             this.CeroButton.Size = new System.Drawing.Size(48, 33);
             this.CeroButton.TabIndex = 4;
@@ -101,7 +101,7 @@
             // 
             this.NumeroDosButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroDosButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroDosButton.Location = new System.Drawing.Point(119, 191);
+            this.NumeroDosButton.Location = new System.Drawing.Point(101, 191);
             this.NumeroDosButton.Name = "NumeroDosButton";
             this.NumeroDosButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroDosButton.TabIndex = 5;
@@ -113,7 +113,7 @@
             // 
             this.NumeroTresButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroTresButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroTresButton.Location = new System.Drawing.Point(178, 191);
+            this.NumeroTresButton.Location = new System.Drawing.Point(160, 191);
             this.NumeroTresButton.Name = "NumeroTresButton";
             this.NumeroTresButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroTresButton.TabIndex = 6;
@@ -125,7 +125,7 @@
             // 
             this.NumeroCuatroButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroCuatroButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroCuatroButton.Location = new System.Drawing.Point(61, 154);
+            this.NumeroCuatroButton.Location = new System.Drawing.Point(43, 154);
             this.NumeroCuatroButton.Name = "NumeroCuatroButton";
             this.NumeroCuatroButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroCuatroButton.TabIndex = 7;
@@ -137,7 +137,7 @@
             // 
             this.NumeroCincoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroCincoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroCincoButton.Location = new System.Drawing.Point(119, 155);
+            this.NumeroCincoButton.Location = new System.Drawing.Point(101, 155);
             this.NumeroCincoButton.Name = "NumeroCincoButton";
             this.NumeroCincoButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroCincoButton.TabIndex = 8;
@@ -149,7 +149,7 @@
             // 
             this.NumeroSeisButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroSeisButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroSeisButton.Location = new System.Drawing.Point(178, 155);
+            this.NumeroSeisButton.Location = new System.Drawing.Point(160, 155);
             this.NumeroSeisButton.Name = "NumeroSeisButton";
             this.NumeroSeisButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroSeisButton.TabIndex = 9;
@@ -161,7 +161,7 @@
             // 
             this.NumeroSieteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroSieteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroSieteButton.Location = new System.Drawing.Point(61, 118);
+            this.NumeroSieteButton.Location = new System.Drawing.Point(43, 118);
             this.NumeroSieteButton.Name = "NumeroSieteButton";
             this.NumeroSieteButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroSieteButton.TabIndex = 10;
@@ -173,7 +173,7 @@
             // 
             this.NumeroOchoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroOchoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroOchoButton.Location = new System.Drawing.Point(119, 116);
+            this.NumeroOchoButton.Location = new System.Drawing.Point(101, 116);
             this.NumeroOchoButton.Name = "NumeroOchoButton";
             this.NumeroOchoButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroOchoButton.TabIndex = 11;
@@ -185,7 +185,7 @@
             // 
             this.NumeroNueveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.NumeroNueveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroNueveButton.Location = new System.Drawing.Point(178, 116);
+            this.NumeroNueveButton.Location = new System.Drawing.Point(160, 116);
             this.NumeroNueveButton.Name = "NumeroNueveButton";
             this.NumeroNueveButton.Size = new System.Drawing.Size(48, 33);
             this.NumeroNueveButton.TabIndex = 12;
@@ -197,7 +197,7 @@
             // 
             this.MasButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.MasButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MasButton.Location = new System.Drawing.Point(178, 230);
+            this.MasButton.Location = new System.Drawing.Point(160, 230);
             this.MasButton.Name = "MasButton";
             this.MasButton.Size = new System.Drawing.Size(48, 33);
             this.MasButton.TabIndex = 13;
@@ -209,7 +209,7 @@
             // 
             this.MenosButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.MenosButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MenosButton.Location = new System.Drawing.Point(236, 191);
+            this.MenosButton.Location = new System.Drawing.Point(218, 191);
             this.MenosButton.Name = "MenosButton";
             this.MenosButton.Size = new System.Drawing.Size(48, 33);
             this.MenosButton.TabIndex = 14;
@@ -221,7 +221,7 @@
             // 
             this.PorButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PorButton.Location = new System.Drawing.Point(236, 155);
+            this.PorButton.Location = new System.Drawing.Point(218, 155);
             this.PorButton.Name = "PorButton";
             this.PorButton.Size = new System.Drawing.Size(48, 33);
             this.PorButton.TabIndex = 15;
@@ -233,7 +233,7 @@
             // 
             this.DivididoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.DivididoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DivididoButton.Location = new System.Drawing.Point(236, 116);
+            this.DivididoButton.Location = new System.Drawing.Point(218, 116);
             this.DivididoButton.Name = "DivididoButton";
             this.DivididoButton.Size = new System.Drawing.Size(48, 33);
             this.DivididoButton.TabIndex = 16;
@@ -245,7 +245,7 @@
             // 
             this.PuntoButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PuntoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PuntoButton.Location = new System.Drawing.Point(119, 229);
+            this.PuntoButton.Location = new System.Drawing.Point(101, 229);
             this.PuntoButton.Name = "PuntoButton";
             this.PuntoButton.Size = new System.Drawing.Size(48, 33);
             this.PuntoButton.TabIndex = 17;
@@ -257,7 +257,7 @@
             // 
             this.LimpiarButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.LimpiarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LimpiarButton.Location = new System.Drawing.Point(295, 116);
+            this.LimpiarButton.Location = new System.Drawing.Point(277, 116);
             this.LimpiarButton.Name = "LimpiarButton";
             this.LimpiarButton.Size = new System.Drawing.Size(85, 32);
             this.LimpiarButton.TabIndex = 18;
@@ -269,7 +269,7 @@
             // 
             this.PrintButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PrintButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrintButton.Location = new System.Drawing.Point(295, 155);
+            this.PrintButton.Location = new System.Drawing.Point(277, 155);
             this.PrintButton.Name = "PrintButton";
             this.PrintButton.Size = new System.Drawing.Size(85, 32);
             this.PrintButton.TabIndex = 19;
@@ -305,6 +305,7 @@
             this.Name = "Calculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
+            this.Load += new System.EventHandler(this.Calculadora_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

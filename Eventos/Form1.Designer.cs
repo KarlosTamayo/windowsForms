@@ -48,7 +48,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Eventos.Properties.Resources.bat_3_128;
-            this.pictureBox1.Location = new System.Drawing.Point(181, 241);
+            this.pictureBox1.Location = new System.Drawing.Point(171, 47);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(178, 129);
             this.pictureBox1.TabIndex = 1;
