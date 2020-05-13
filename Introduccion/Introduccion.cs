@@ -48,5 +48,10 @@ namespace Introduccion
         {
 
         }
+
+        private void TitruloLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

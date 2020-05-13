@@ -48,6 +48,7 @@
             this.TitruloLabel.Size = new System.Drawing.Size(215, 50);
             this.TitruloLabel.TabIndex = 0;
             this.TitruloLabel.Text = "Login 1.0";
+            this.TitruloLabel.Click += new System.EventHandler(this.TitruloLabel_Click);
             // 
             // IdTextBox
             // 

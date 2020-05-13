@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07C4946E-2AFD-40E7-9038-A507C45242FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>proyectoPrincipal</RootNamespace>
+    <AssemblyName>proyectoPrincipal</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProyectoCinco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProyectoCinco.Designer.cs">
+      <DependentUpon>ProyectoCinco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProyectoCuatro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProyectoCuatro.Designer.cs">
+      <DependentUpon>ProyectoCuatro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProyectoDos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProyectoDos.Designer.cs">
+      <DependentUpon>ProyectoDos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProyectoMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProyectoMDI.Designer.cs">
+      <DependentUpon>ProyectoMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProyectoPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProyectoPrincipal.Designer.cs">
+      <DependentUpon>ProyectoPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProyectoTres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProyectoTres.Designer.cs">
+      <DependentUpon>ProyectoTres.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ProyectoCinco.resx">
+      <DependentUpon>ProyectoCinco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProyectoCuatro.resx">
+      <DependentUpon>ProyectoCuatro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProyectoDos.resx">
+      <DependentUpon>ProyectoDos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProyectoMDI.resx">
+      <DependentUpon>ProyectoMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProyectoPrincipal.resx">
+      <DependentUpon>ProyectoPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProyectoTres.resx">
+      <DependentUpon>ProyectoTres.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapa-de-la-botella.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hacker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wifi %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dominio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-french-bulldog-boston-terrier-pug-bichon-frise-cartoon-bulldog-5a70ac9f86a147.2672508015173336635515.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOLA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROJO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feliz-cumpleanos %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\madre.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

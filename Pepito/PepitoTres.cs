@@ -34,7 +34,7 @@ namespace Pepito
 
         private void PepitoCuatroButton_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Hide();//kls
 
             PepitoCuatro NuevaCuatro = new PepitoCuatro(); // instancia 
             NuevaCuatro.Show(); //abriendo la ventana

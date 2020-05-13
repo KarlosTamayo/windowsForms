@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarlosMDI", "KarlosMDI\Karl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClcualdoraDos", "ClcualdoraDos\ClcualdoraDos.csproj", "{E55253CE-237E-47C4-9ADF-598F233BA04D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyectoPrincipal", "proyectoPrincipal\proyectoPrincipal.csproj", "{07C4946E-2AFD-40E7-9038-A507C45242FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{E55253CE-237E-47C4-9ADF-598F233BA04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E55253CE-237E-47C4-9ADF-598F233BA04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E55253CE-237E-47C4-9ADF-598F233BA04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07C4946E-2AFD-40E7-9038-A507C45242FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C4946E-2AFD-40E7-9038-A507C45242FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C4946E-2AFD-40E7-9038-A507C45242FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C4946E-2AFD-40E7-9038-A507C45242FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
